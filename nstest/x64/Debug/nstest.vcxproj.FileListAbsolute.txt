@@ -1,0 +1,2 @@
+C:\Users\Kapa\source\repos\nstest\x64\Debug\nstest.exe.lastcodeanalysissucceeded
+C:\Users\Kapa\source\repos\nstest\nstest\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,1845 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"VelocityPressureSolverOMP::c\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::{ctor}",
+                  "decoratedName": "??0VelocityPressureSolverOMP@@QEAA@V?$shared_ptr@VILogger@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "VelocityPressureSolverOMP::c"
+          }
+        },
+        {
+          "ruleId": "C6993",
+          "message": {
+            "text": "При анализе кода структуры OpenMP игнорируются; анализируется код одного потока."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 9
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 36,
+                  "endLine": 37,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 36,
+                  "endLine": 37,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 52,
+                  "endLine": 37,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 52,
+                  "endLine": 37,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 11,
+                  "endLine": 38,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 41,
+                  "endLine": 38,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 41,
+                  "endLine": 38,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 57,
+                  "endLine": 38,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 57,
+                  "endLine": 38,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 38,
+                  "endLine": 49,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 45,
+                  "endLine": 49,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 56,
+                  "endLine": 49,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 63,
+                  "endLine": 49,
+                  "endColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 76,
+                  "endLine": 49,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 83,
+                  "endLine": 49,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 94,
+                  "endLine": 49,
+                  "endColumn": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 101,
+                  "endLine": 49,
+                  "endColumn": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 22,
+                  "endLine": 50,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 29,
+                  "endLine": 50,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 40,
+                  "endLine": 50,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 47,
+                  "endLine": 50,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 60,
+                  "endLine": 50,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 67,
+                  "endLine": 50,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 78,
+                  "endLine": 50,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 85,
+                  "endLine": 50,
+                  "endColumn": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updatePressure",
+                  "decoratedName": "?updatePressure@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 43,
+                  "endLine": 66,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateBoundaryConditions",
+                  "decoratedName": "?updateBoundaryConditions@VelocityPressureSolverOMP@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 21,
+                  "endLine": 66,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateBoundaryConditions",
+                  "decoratedName": "?updateBoundaryConditions@VelocityPressureSolverOMP@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 44,
+                  "endLine": 72,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateBoundaryConditions",
+                  "decoratedName": "?updateBoundaryConditions@VelocityPressureSolverOMP@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 66,
+                  "endLine": 72,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateBoundaryConditions",
+                  "decoratedName": "?updateBoundaryConditions@VelocityPressureSolverOMP@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 18,
+                  "endLine": 72,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateBoundaryConditions",
+                  "decoratedName": "?updateBoundaryConditions@VelocityPressureSolverOMP@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 68,
+                  "endLine": 81,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 62,
+                  "endLine": 82,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 72,
+                  "endLine": 83,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 65,
+                  "endLine": 84,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 29,
+                  "endLine": 85,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 36,
+                  "endLine": 85,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 54,
+                  "endLine": 85,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 61,
+                  "endLine": 85,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 79,
+                  "endLine": 85,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 86,
+                  "endLine": 85,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 104,
+                  "endLine": 85,
+                  "endColumn": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 111,
+                  "endLine": 85,
+                  "endColumn": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 44,
+                  "endLine": 86,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 58,
+                  "endLine": 86,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 75,
+                  "endLine": 86,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 89,
+                  "endLine": 86,
+                  "endColumn": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityU",
+                  "decoratedName": "?updateVelocityU@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 68,
+                  "endLine": 102,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 62,
+                  "endLine": 103,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 72,
+                  "endLine": 104,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 65,
+                  "endLine": 105,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 29,
+                  "endLine": 106,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 36,
+                  "endLine": 106,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 54,
+                  "endLine": 106,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 61,
+                  "endLine": 106,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 79,
+                  "endLine": 106,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 86,
+                  "endLine": 106,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 104,
+                  "endLine": 106,
+                  "endColumn": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 111,
+                  "endLine": 106,
+                  "endColumn": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 44,
+                  "endLine": 107,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 58,
+                  "endLine": 107,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 75,
+                  "endLine": 107,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 89,
+                  "endLine": 107,
+                  "endColumn": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VelocityPressureSolverOMP::updateVelocityV",
+                  "decoratedName": "?updateVelocityV@VelocityPressureSolverOMP@@AEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VelocityPressureSolverOMP.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bdca50816f407ec9f1e2a45b694ebf7b0f6235eb946c0f3426ebd1ed65f9f878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/velocitypressuresolveromp.h"
+          },
+          "hashes": {
+            "sha-256": "18938ce36d3d38cbdd6b35e6dbe0b39498719225da04baa5104d5b840ef2f3a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/basicsolver.h"
+          },
+          "hashes": {
+            "sha-256": "0f2a526f5eb4d2437e3750578dedb4999eebd3e1ac8ec342a27d1a5ce86d8cee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/ilogger.h"
+          },
+          "hashes": {
+            "sha-256": "92061cc552107a10ed5fa9c8ff15ebe3356399fc6bff1980f2fd100dc2332026"
+          }
+        }
+      ]
+    }
+  ]
+}

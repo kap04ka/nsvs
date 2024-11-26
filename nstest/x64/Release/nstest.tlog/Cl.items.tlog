@@ -1,0 +1,8 @@
+C:\Users\Kapa\source\repos\nstest\nstest\BasicSolver.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\BasicSolver.obj
+C:\Users\Kapa\source\repos\nstest\nstest\ConsoleLogger.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\ConsoleLogger.obj
+C:\Users\Kapa\source\repos\nstest\nstest\main.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\main.obj
+C:\Users\Kapa\source\repos\nstest\nstest\SolverFactory.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\SolverFactory.obj
+C:\Users\Kapa\source\repos\nstest\nstest\VelocityPressureSolver.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\VelocityPressureSolver.obj
+C:\Users\Kapa\source\repos\nstest\nstest\VelocityPressureSolverOMP.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\VelocityPressureSolverOMP.obj
+C:\Users\Kapa\source\repos\nstest\nstest\VorticityStreamFunctionSolver.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\VorticityStreamFunctionSolver.obj
+C:\Users\Kapa\source\repos\nstest\nstest\VorticityStreamFunctionSolverOMP.cpp;C:\Users\Kapa\source\repos\nstest\nstest\x64\Release\VorticityStreamFunctionSolverOMP.obj

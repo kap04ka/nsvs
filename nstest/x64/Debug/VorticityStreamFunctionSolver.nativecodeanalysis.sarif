@@ -1,0 +1,1827 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"VorticityStreamFunctionSolver::Q\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::{ctor}",
+                  "decoratedName": "??0VorticityStreamFunctionSolver@@QEAA@V?$shared_ptr@VILogger@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "VorticityStreamFunctionSolver::Q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"VorticityStreamFunctionSolver::epsilon\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::{ctor}",
+                  "decoratedName": "??0VorticityStreamFunctionSolver@@QEAA@V?$shared_ptr@VILogger@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "VorticityStreamFunctionSolver::epsilon"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 24,
+                  "endLine": 20,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::init",
+                  "decoratedName": "?init@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 36,
+                  "endLine": 44,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 36,
+                  "endLine": 44,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 52,
+                  "endLine": 44,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 52,
+                  "endLine": 44,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 11,
+                  "endLine": 45,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 41,
+                  "endLine": 45,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 41,
+                  "endLine": 45,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 57,
+                  "endLine": 45,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 57,
+                  "endLine": 45,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 52,
+                  "endLine": 55,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 54,
+                  "endLine": 56,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 62,
+                  "endLine": 56,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 73,
+                  "endLine": 56,
+                  "endColumn": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 25,
+                  "endLine": 56,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 53,
+                  "endLine": 60,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 24,
+                  "endLine": 60,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 54,
+                  "endLine": 62,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 61,
+                  "endLine": 62,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 28,
+                  "endLine": 62,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 28,
+                  "endLine": 66,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::initializeBoundaryConditions",
+                  "decoratedName": "?initializeBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 80,
+                  "endLine": 77,
+                  "endColumn": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 109,
+                  "endLine": 77,
+                  "endColumn": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 49,
+                  "endLine": 77,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 22,
+                  "endLine": 77,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 36,
+                  "endLine": 86,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 106,
+                  "endLine": 87,
+                  "endColumn": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 36,
+                  "endLine": 88,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 82,
+                  "endLine": 89,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 33,
+                  "endLine": 90,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 103,
+                  "endLine": 91,
+                  "endColumn": 107
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 33,
+                  "endLine": 92,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 79,
+                  "endLine": 93,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateVorticityBoundaryConditions",
+                  "decoratedName": "?updateVorticityBoundaryConditions@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 87,
+                  "endLine": 105,
+                  "endColumn": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 70,
+                  "endLine": 106,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 91,
+                  "endLine": 107,
+                  "endColumn": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 73,
+                  "endLine": 108,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 57,
+                  "endLine": 109,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 79,
+                  "endLine": 109,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 104,
+                  "endLine": 109,
+                  "endColumn": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 126,
+                  "endLine": 109,
+                  "endColumn": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::solveHelmholtzEquation",
+                  "decoratedName": "?solveHelmholtzEquation@VorticityStreamFunctionSolver@@IEAAXN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 98,
+                  "endLine": 127,
+                  "endColumn": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateStreamFunction",
+                  "decoratedName": "?updateStreamFunction@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 126,
+                  "endLine": 127,
+                  "endColumn": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateStreamFunction",
+                  "decoratedName": "?updateStreamFunction@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 157,
+                  "endLine": 127,
+                  "endColumn": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateStreamFunction",
+                  "decoratedName": "?updateStreamFunction@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 185,
+                  "endLine": 127,
+                  "endColumn": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::updateStreamFunction",
+                  "decoratedName": "?updateStreamFunction@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 44,
+                  "endLine": 144,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 51,
+                  "endLine": 144,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 76,
+                  "endLine": 144,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 83,
+                  "endLine": 144,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 108,
+                  "endLine": 144,
+                  "endColumn": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 115,
+                  "endLine": 144,
+                  "endColumn": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 140,
+                  "endLine": 144,
+                  "endColumn": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 147,
+                  "endLine": 144,
+                  "endColumn": 151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 45,
+                  "endLine": 145,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 52,
+                  "endLine": 145,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 77,
+                  "endLine": 145,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 84,
+                  "endLine": 145,
+                  "endColumn": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 109,
+                  "endLine": 145,
+                  "endColumn": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 116,
+                  "endLine": 145,
+                  "endColumn": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 141,
+                  "endLine": 145,
+                  "endColumn": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 148,
+                  "endLine": 145,
+                  "endColumn": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VorticityStreamFunctionSolver::calculateVelocities",
+                  "decoratedName": "?calculateVelocities@VorticityStreamFunctionSolver@@IEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Kapa/source/repos/nstest/nstest/VorticityStreamFunctionSolver.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2c163150698a027c59559427330e8e928aca89c81ee9fd28364a5e035896f761"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/vorticitystreamfunctionsolver.h"
+          },
+          "hashes": {
+            "sha-256": "937ff6addb1117f54346052ac789655653e5bd739183c1ba8a8fce3947ce18a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/basicsolver.h"
+          },
+          "hashes": {
+            "sha-256": "0f2a526f5eb4d2437e3750578dedb4999eebd3e1ac8ec342a27d1a5ce86d8cee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kapa/source/repos/nstest/nstest/ilogger.h"
+          },
+          "hashes": {
+            "sha-256": "92061cc552107a10ed5fa9c8ff15ebe3356399fc6bff1980f2fd100dc2332026"
+          }
+        }
+      ]
+    }
+  ]
+}

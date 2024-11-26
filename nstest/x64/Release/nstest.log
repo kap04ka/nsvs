@@ -1,0 +1,14 @@
+﻿cl : командная строка  warning D9025: переопределение "/openmp" на "/openmp:llvm"
+  BasicSolver.cpp
+  ConsoleLogger.cpp
+  main.cpp
+  SolverFactory.cpp
+  VelocityPressureSolver.cpp
+  VelocityPressureSolverOMP.cpp
+  VorticityStreamFunctionSolver.cpp
+  VorticityStreamFunctionSolverOMP.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 491 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  nstest.vcxproj -> C:\Users\Kapa\source\repos\nstest\x64\Release\nstest.exe
